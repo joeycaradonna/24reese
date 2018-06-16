@@ -221,50 +221,50 @@
             </div>
           </div>
         </section>
-  <section id="location">
-    <h3 id="locationhead">LOCATION</h3>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="map" style="width:100%;height:500px;"></div>
+        <section id="location">
+          <h3 id="locationhead">LOCATION</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div id="map" style="width:100%;height:500px;"></div>
 
-          <script>
-            function myMap() {
-              var myCenter = new google.maps.LatLng(30.2221349, -97.8120898);
-              var mapCanvas = document.getElementById("map");
-              var mapOptions = {
-                center: myCenter,
-                zoom: 12
-              };
-              var map = new google.maps.Map(mapCanvas, mapOptions);
-              var marker = new google.maps.Marker({
-                position: myCenter,
-                animation: google.maps.Animation.BOUNCE
-              });
-              marker.setMap(map);
-            }
-          </script>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div id="info" style="text-align:center;">
-      <h3 id="bottom-title">Connect with us on social media</h3>
-      <div id="facebook">
-        <a href="https://www.facebook.com/cooperhomesaustin" id="facebook" target="_blank">
+                <script>
+                  function myMap() {
+                    var myCenter = new google.maps.LatLng(30.2221303, -97.8099011);
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = {
+                      center: myCenter,
+                      zoom: 12
+                    };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+                    var marker = new google.maps.Marker({
+                      position: myCenter,
+                      animation: google.maps.Animation.BOUNCE
+                    });
+                    marker.setMap(map);
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div id="info" style="text-align:center;">
+            <h3 id="bottom-title">Connect with us on social media</h3>
+            <div id="facebook">
+              <a href="https://www.facebook.com/cooperhomesaustin" id="facebook" target="_blank">
                     <i class="fab fa-facebook fa-3x" aria-hidden="true"></i>
                 </a>
-        <a href="https://www.instagram.com/cooperhomesatx/" id="instagram" target="_blank">
+              <a href="https://www.instagram.com/cooperhomesatx/" id="instagram" target="_blank">
                     <i class="fab fa-instagram fa-3x" style="color:black" aria-hidden="true"></i>
                 </a>
-      </div>
-    </div>
-    <img id="cooperhomes" src="img/cooperhomes.jpg" alt="#">
-  </section>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-OnajlSxR9GCUbyEtAxkwaQDp4-RzKFE&callback=myMap"></script>
+            </div>
+          </div>
+          <img id="cooperhomes" src="img/cooperhomes.jpg" alt="#">
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-OnajlSxR9GCUbyEtAxkwaQDp4-RzKFE&callback=myMap"></script>
 </body>
 
 </html>
